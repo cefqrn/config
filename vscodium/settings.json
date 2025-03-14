@@ -1,0 +1,40 @@
+{
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.renderWhitespace": "trailing",
+    "editor.wordWrap": "on",
+    "editor.cursorBlinking": "solid",
+
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    "editor.minimap.enabled": false,
+
+    "workbench.settings.editor": "json",
+
+    "workbench.startupEditor": "newUntitledFile",
+
+    // last version that supports catalina is 1.97
+    "update.mode": "none",
+
+    "telemetry.telemetryLevel": "off",
+
+
+    "files.associations": {
+        "*.f": "forth"
+    },
+    "[python]": {
+        "editor.tabSize": 4,
+        "editor.rulers": [ 72, 80 ]
+    },
+    "[forth]": {
+        "editor.tabSize": 3
+    },
+
+
+    "ruff.lint.preview": true,
+    "ruff.lint.select": [ "E4", "E7", "E9", "F" ],
+    "ruff.lint.extendSelect": [ "B", "Q", "SIM" ],
+    "ruff.lint.ignore":
+        [ "E701", "E702"
+        // , "E402", "E741"
+        ]
+}
