@@ -1,0 +1,9 @@
+target-version = "py312"
+
+[lint]
+preview = true
+select = [ "E4", "E7", "E9", "F" ]
+extend-select = ["B", "Q", "SIM"]
+ignore = [ "E701", "E702"
+         # , "E402", "E741"
+         ]

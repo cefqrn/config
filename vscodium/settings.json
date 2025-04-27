@@ -27,14 +27,5 @@
     },
     "[forth]": {
         "editor.tabSize": 3
-    },
-
-
-    "ruff.lint.preview": true,
-    "ruff.lint.select": [ "E4", "E7", "E9", "F" ],
-    "ruff.lint.extendSelect": [ "B", "Q", "SIM" ],
-    "ruff.lint.ignore":
-        [ "E701", "E702"
-        // , "E402", "E741"
-        ]
+    }
 }
